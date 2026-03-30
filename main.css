@@ -1,9 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: #fff9f9;
+  margin: 0;
 }
 
 .calculator {
@@ -37,7 +42,7 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 8px;
-  background: #555050;
+  background: #555350;
   color: white;
   cursor: pointer;
   transition: 0.2s;
@@ -45,4 +50,27 @@ button {
 
 button:hover {
   background: #787070;
+}
+
+.btn-top {
+  background: #ff9500;
+}
+.btn-top:hover {
+  background: #8b5a00;
+}
+
+.btn-sci {
+  background: #3a3a3a;
+}
+.btn-sci:hover {
+  background: #4f4f4f;
+}
+
+.btn-op {
+  background: #ff9500;
+  font-size: 22px;
+  font-weight: bold;
+}
+.btn-op:hover {
+  background: #ffaa33;
 }
